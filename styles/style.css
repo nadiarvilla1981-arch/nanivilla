@@ -243,8 +243,7 @@ nav ul {
   background-position: center;   
   background-repeat: no-repeat;
   background-attachment: fixed;  
-  
-  height: 50vh;                 
+                  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -253,7 +252,7 @@ nav ul {
 
   position: relative;
   color: white;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .contacto-img {
@@ -262,8 +261,7 @@ nav ul {
   background-position: center;   
   background-repeat: no-repeat;
   background-attachment: fixed;  
-
-  height: 100vh;                 
+                 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -272,7 +270,7 @@ nav ul {
 
   position: relative;
   color: white;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .reservar-img {
@@ -288,18 +286,13 @@ nav ul {
      color: #f4c430;
 }
 
-.recetas-main {
-  width: 50%;
+.mi-overlay{
   background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 10cm 1cm 1cm 1cm; 
-  margin: 40px; 
-  border-width: 20px;
-  border-radius: 30px;
-  align-self: center;  
-  justify-content: center;  
-  
+  color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: auto;
 }
-
 
 
