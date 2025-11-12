@@ -300,7 +300,7 @@ nav ul {
   padding: 5px 40px;
   box-sizing: border-box;
   z-index: 10;
-  background-color: rgba(0, 0, 0, 0.3); /* leve fondo para legibilidad */
+  background-color: rgba(0, 0, 0, 0.3); 
   backdrop-filter: blur(4px);
 }
 
@@ -368,7 +368,7 @@ nav ul {
 /* retoques del main */
 .main-home {
   min-height: 100vh;
-  background: url('../assets/fondo-main.jpg') center/cover no-repeat; /* opcional, si tenés una imagen */
+  background: url('../assets/fondo-main.jpg') center/cover no-repeat; 
   color: #fff;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 }
@@ -424,7 +424,7 @@ nav ul {
 
 /* ajustes main page recetas */
 .mi-overlay {
-  background-color: rgba(0, 0, 0, 0.6); /* negro translúcido */
+  background-color: rgba(0, 0, 0, 0.6); 
   padding: 20px;
   border-radius: 10px;
   display: flex;
@@ -433,7 +433,7 @@ nav ul {
   justify-content: center;
   width: 90%;
   max-width: 600px;
-  margin-top: 70px auto; /* centra la caja */
+  margin-top: 70px auto; 
   box-sizing: border-box;
   text-align: center;
   color: white;
