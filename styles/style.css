@@ -295,4 +295,79 @@ nav ul {
   margin: auto;
 }
 
+/* agregado del boton hamburguesa para que funcione en responsive */
+.custom-header {
+  position: absolute;
+  top: 0;          
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+  box-sizing: border-box;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.3); /* leve fondo para legibilidad */
+  backdrop-filter: blur(4px);
+}
+
+.nani-logo {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.a-nav {
+  display: inline-block;
+  background-color: black;
+  color: white !important;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  margin: 5px;
+}
+
+.a-nav:hover {
+  background-color: #f6b800;
+  color: black !important;
+}
+
+.a-nav.reservar {
+  background-color: #f6b800;
+  color: black !important;
+  font-weight: 700;
+}
+
+.a-nav.reservar:hover {
+  background-color: black;
+  color: #f6b800 !important;
+}
+
+/* responsive */
+@media (max-width: 991px) {
+  .navbar-nav {
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0,0,0,0.85);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .a-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    background-color: #f6b800;
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 30 30'%3E%3Cpath stroke='none' d='M0 0h30v30H0z'/%3E%3Cpath d='M4 7h22v2H4zm0 7h22v2H4zm0 7h22v2H4z'/%3E%3C/svg%3E");
+  }
+}
 
