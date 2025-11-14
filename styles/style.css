@@ -96,6 +96,7 @@ nav li { display: inline-block; }
 .btn-yellow { background-color: #f4c430; color: black; }
 .btn-yellow:hover { background-color: #ffd84a; }
 
+
 /* MAIN */
 main { padding-top: 80px; }
 
@@ -234,7 +235,7 @@ main { padding-top: 80px; }
 
 /* responsive home mayor 768px */
 @media (min-width: 768px) {
-    .nav-home ul { flex-direction: row; justify-content: center; gap: 20px; }
+    .nav-home ul { flex-direction: column; justify-content: center; gap: 20px; }
     .nav-home li { width: auto; }
     .nav-home a { width: auto; font-size: 1rem; padding: 10px 20px; }
     .fondo-home .titulo-home { font-size: 2.8rem; }
