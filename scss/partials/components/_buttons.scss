@@ -1,0 +1,25 @@
+.btn-black, .btn-yellow {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn-black { background-color: black; color: white; }
+.btn-black:hover { background-color: #333; }
+.btn-yellow { background-color: #f4c430; color: black; }
+.btn-yellow:hover { background-color: #ffd84a; }
+
+.btn-fermento {
+    display: inline-block;
+    margin-top: 1.5rem;
+    background: hsl(27, 92%, 53%);
+    color: #fff;
+    padding: 0.8rem 1.6rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: .3s ease;
+}
+.btn-fermento:hover { background: #f3e957; }

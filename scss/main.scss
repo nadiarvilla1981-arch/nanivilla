@@ -1,0 +1,14 @@
+@use "partials/base/reset";
+@use "partials/base/tipografia";
+@use "partials/base/global";
+
+@use "partials/components/header";
+@use "partials/components/nav";
+@use "partials/components/buttons";
+@use "partials/components/backgrounds";
+@use "partials/components/overlay";
+@use "partials/components/contacto";
+@use "partials/components/fermento";
+@use "partials/components/footer";
+
+@use "partials/utilities/responsive";
