@@ -10,5 +10,9 @@
 @use "partials/components/contacto";
 @use "partials/components/fermento";
 @use "partials/components/footer";
+@use "partials/components/recetarios";
 
 @use "partials/utilities/responsive";
+@use "partials/utilities/variables" as *;
+@use "partials/utilities/mixins" as *;
+@use "partials/utilities/helpers" as *;

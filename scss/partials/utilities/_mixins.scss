@@ -1,0 +1,20 @@
+// para centrar con flex
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// para mobile
+@mixin mobile {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+// para textos
+@mixin titulo($tamano) {
+    font-size: $tamano;
+    font-weight: 700;
+    line-height: 1.2;
+}

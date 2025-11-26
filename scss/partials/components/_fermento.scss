@@ -9,6 +9,7 @@
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
+
 .fermento-container h1 {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -19,4 +20,38 @@
     margin-bottom: 1rem;
     font-size: 1.05rem;
     line-height: 1.6;
+}
+
+.fermento-container {
+    padding: $padding-base;
+
+    h1 {
+        @include titulo(2.2rem);
+        color: $color-principal;
+    }
+
+    p {
+        margin-bottom: $espacio-doble;
+        color: $color-texto;
+    }
+
+    ul, ol {
+        margin-left: $espacio-doble;
+
+        li {
+            margin-bottom: $espacio-base;
+        }
+    }
+
+    .button-container {
+        @include flex-center;
+        gap: $espacio-doble;
+
+        .button {
+            padding: .8rem 1.2rem;
+            border-radius: $radius;
+            background: $color-secundario;
+            color: $color-principal;
+        }
+    }
 }
