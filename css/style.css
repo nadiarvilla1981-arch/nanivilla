@@ -1,10 +1,9 @@
-/* Error: Undefined variable.
- *    ,
- * 31 |     border-radius: $radius;
- *    |                    ^^^^^^^
- *    '
- *   scss\partials\components\_buttons.scss 31:20  @use
- *   scss\main.scss 7:1                            root stylesheet */
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 2 | @use "/partials/utilities/mixins" as *;
+ *   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   scss\main.scss 2:1  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 31 \2502      border-radius: $radius;\d\a    \2502                     ^^^^^^^\a    \2575 \a   scss\\partials\\components\\_buttons.scss 31:20  @use\a   scss\\main.scss 7:1                            root stylesheet";
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 2 \2502  @use \"/partials/utilities/mixins\" as *;\d\a   \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\main.scss 2:1  root stylesheet";
 }

@@ -1,18 +1,21 @@
-@use "partials/base/reset";
-@use "partials/base/tipografia";
-@use "partials/base/global";
+@use "./partials/utilities/variables" as *;
+@use "/partials/utilities/mixins" as *;
+@use "./partials/utilities/helpers" as *;
 
-@use "partials/components/header";
-@use "partials/components/nav";
-@use "partials/components/buttons";
-@use "partials/components/backgrounds";
-@use "partials/components/overlay";
-@use "partials/components/contacto";
-@use "partials/components/fermento";
-@use "partials/components/footer";
-@use "partials/components/recetarios";
+@use "./partials/base/reset";
+@use "./partials/base/tipografia";
+@use "./partials/base/global";
 
-@use "partials/utilities/responsive";
-@use "partials/utilities/variables" as *;
-@use "partials/utilities/mixins" as *;
-@use "partials/utilities/helpers" as *;
+@use "./partials/components/header";
+@use "./partials/components/nav";
+@use "./partials/components/buttons";
+@use "./partials/components/backgrounds";
+@use "./partials/components/overlay";
+@use "./partials/components/contacto";
+@use "./partials/components/fermento";
+@use "./partials/components/footer";
+@use "./partials/components/recetarios";
+
+@use "./partials/utilities/responsive" as *;
+
+
