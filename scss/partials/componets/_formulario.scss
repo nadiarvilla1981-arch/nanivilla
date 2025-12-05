@@ -1,0 +1,28 @@
+.contacto-img .mi-overlay {
+  background-color: rgba(0,0,0,0.85);
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1000px;
+  gap: 1rem;
+}
+
+.contacto-img .formulario-contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacto-img .formulario-contacto input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+}
+
+.contacto-img .formulario-contacto button {
+  background-color: #f6b800;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 25px;
+}

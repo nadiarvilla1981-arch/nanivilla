@@ -1,11 +1,13 @@
-// Flex center
 @mixin flex-center {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
-// Mobile responsive
+@mixin transition($time: 0.3s) {
+  transition: all $time ease;
+}
+
 @mixin mobile {
   @media (max-width: 768px) {
     @content;

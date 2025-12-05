@@ -1,21 +1,17 @@
-@use "./partials/utilities/variables" as *;
-@use "/partials/utilities/mixins" as *;
-@use "./partials/utilities/helpers" as *;
+// BASE
+@use  './partials/base/reset';
+@use  './partials/base/tipografia';
 
-@use "./partials/base/reset";
-@use "./partials/base/tipografia";
-@use "./partials/base/global";
+// COMPONENTS
+@use './partials/componets/pages';
+@use './partials/componets/overlays';
+@use './partials/componets/nav';
+@use './partials/componets/header';
+@use './partials/componets/footer';
+@use './partials/componets/buttons';
+@use './partials/componets/formulario';
 
-@use "./partials/components/header";
-@use "./partials/components/nav";
-@use "./partials/components/buttons";
-@use "./partials/components/backgrounds";
-@use "./partials/components/overlay";
-@use "./partials/components/contacto";
-@use "./partials/components/fermento";
-@use "./partials/components/footer";
-@use "./partials/components/recetarios";
-
-@use "./partials/utilities/responsive" as *;
-
+// UTILITIES
+@use './partials/utilities/mixins';
+@use './partials/utilities/variables';
 

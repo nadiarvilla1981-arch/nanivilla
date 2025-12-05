@@ -1,0 +1,13 @@
+.btn-black, .btn-yellow {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn-black { background-color: black; color: white; }
+.btn-black:hover { background-color: #333; }
+
+.btn-yellow { background-color: #f4c430; color: black; }
+.btn-yellow:hover { background-color: #ffd84a; }

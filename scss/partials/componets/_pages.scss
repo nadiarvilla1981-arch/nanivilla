@@ -1,0 +1,34 @@
+main { padding-top: 80px; }
+
+/* FONDOS */
+.fondo-home, .inicio-img, .sobremi-img, .fondo-recetas, .contacto-img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.fondo-home {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url("../assets/forest-868715_1280.jpg");
+  height: 100vh;
+}
+
+.inicio-img { background-image: url("../assets/20250210_190447.jpg"); }
+.sobremi-img { background-image: url("../assets/20250213_181155.jpg"); }
+.fondo-recetas { background-image: url("../assets/20250824_082934.jpg"); }
+.contacto-img { background-image: url("../assets/20250609_110136.jpg"); }
+
+/* OVERLAY */
+.mi-overlay {
+  background-color: rgba(0,0,0,0.7);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 700px;
+}
