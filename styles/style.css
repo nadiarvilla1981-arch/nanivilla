@@ -284,9 +284,7 @@ header, .custom-header {
   background: #f3e957;
 }
 
-/* ===============================
-   RESPONSIVE GLOBAL
-   =============================== */
+/*RESPONSIVE*/
 /* HEADER / NAV - tablets */
 @media (max-width: 991px) {
   .navbar-nav {
