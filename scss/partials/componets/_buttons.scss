@@ -11,3 +11,15 @@
 
 .btn-yellow { background-color: #f4c430; color: black; }
 .btn-yellow:hover { background-color: #ffd84a; }
+
+.main-home .btn-warning {
+  background-color: #f4c430;
+  color: #000;
+  border: none;
+}
+
+.main-home .btn-outline-light {
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+}
