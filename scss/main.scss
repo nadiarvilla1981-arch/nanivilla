@@ -1,3 +1,7 @@
+// UTILITIES
+@use './partials/utilities/mixins';
+@use './partials/utilities/variables';
+
 // BASE
 @use  './partials/base/reset';
 @use  './partials/base/tipografia';
@@ -10,8 +14,12 @@
 @use './partials/componets/footer';
 @use './partials/componets/buttons';
 @use './partials/componets/formulario';
+@use './partials/componets/fermento';
 
-// UTILITIES
-@use './partials/utilities/mixins';
-@use './partials/utilities/variables';
+// RESPONSIVE
+
+@use './partials/utilities/responsive';
+
+
+
 

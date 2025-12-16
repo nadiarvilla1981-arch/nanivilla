@@ -1,0 +1,31 @@
+.fermento-container {
+  padding: 2rem;
+
+  .btn-fermento {
+    margin-top: 1.5rem;
+    text-align: center;
+
+    a.button {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border-radius: 25px;
+      font-weight: 600;
+      transition: 0.3s;
+
+      &:hover {
+        background-color: lighten(#f4c430, 10%);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .fermento-container h1 {
+    font-size: 1.8rem;
+  }
+
+  .fermento-container p,
+  .fermento-container blockquote {
+    font-size: 1rem;
+  }
+}

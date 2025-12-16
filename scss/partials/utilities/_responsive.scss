@@ -1,0 +1,135 @@
+/*RESPONSIVE*/
+
+/* HEADER / NAV - tablets */
+@media (max-width: 991px) {
+
+  .navbar-nav {
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(0,0,0,0.85);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .a-nav {
+    text-align: center;
+    display: block;
+  }
+
+  .navbar-toggler {
+    background-color: #f6b800;
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 30 30'%3E%3Cpath stroke='none' d='M0 0h30v30H0z'/%3E%3Cpath d='M4 7h22v2H4zm0 7h22v2H4zm0 7h22v2H4z'/%3E%3C/svg%3E");
+  }
+}
+
+/* HOME + CONTACTO - mobile */
+@media (max-width: 768px) {
+
+  .nav-home ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+  }
+
+  .nav-home li {
+    width: 100%;
+  }
+
+  .nav-home a {
+    width: 100%;
+    font-size: 0.85rem;
+    padding: 6px 0;
+  }
+
+  .inicio-main h1 {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+
+  .inicio-main p {
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+    padding: 0 12px;
+  }
+
+  .inicio-main {
+    padding-top: 80px;
+  }
+
+  .contacto-img .mi-overlay {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .contacto-img .texto-contacto,
+  .contacto-img .formulario-contacto {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .contacto-img .formulario-contacto input,
+  .contacto-img .formulario-contacto button {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 769px) {
+
+  .mi-overlay h1 {
+    font-size: 2.4rem;
+  }
+
+  .mi-overlay p {
+    font-size: 1.1rem;
+  }
+}
+
+/* HOME desktop grande */
+@media (min-width: 768px) {
+
+  .nav-home ul {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .nav-home li {
+    width: auto;
+  }
+
+  .nav-home a {
+    width: auto;
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .fondo-home .titulo-home {
+    font-size: 2.8rem;
+  }
+
+  .titulo-home {
+    font-size: 2.5rem;
+    padding: 10px 25px;
+    margin-bottom: 40px;
+  }
+
+  .main-home {
+    max-width: 600px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+}
