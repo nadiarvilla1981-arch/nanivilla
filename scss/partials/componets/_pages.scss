@@ -1,0 +1,32 @@
+@use '../utilities/variables' as v;
+@use '../utilities/responsive' as r;
+
+.hero-home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                      url('../../../assets/HERO.JPG.jpg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    color: white;
+
+    .container {
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            @include r.mobile { font-size: 2.2rem; }
+        }
+
+        p {
+            max-width: 800px;
+            margin: 1.5rem auto;
+            &.lead { font-size: 1.25rem; }
+        }
+
+        .btn-warning {
+            padding: 12px 35px;
+            &:hover { transform: scale(1.05); }
+        }
+    }
+}

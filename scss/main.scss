@@ -1,20 +1,17 @@
-// style.scss
+// 1. Herramientas (Variables y Mixins primero)
+@use 'partials/utilities/variables' as v;
+@use 'partials/utilities/responsive' as r;
 
-// UTILITIES
-@use './partials/utilities/variables';
-@use './partials/utilities/mixins';
-@use './partials/utilities/responsive';
+// 2. Base (Resets)
+@use 'partials/base/reset';
 
-// BASE
-@use './partials/base/reset';
-@use './partials/base/tipografia';
-
-// COMPONENTS
+// 3. Componentes
 @use './partials/componets/header';
 @use './partials/componets/nav';
 @use './partials/componets/buttons';
 @use './partials/componets/footer';
 @use './partials/componets/fermento';
+@use './partials/componets/pages';
 
 
 
