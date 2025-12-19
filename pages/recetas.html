@@ -1,72 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content=" recetas de nutrición natural, recetas depurativas, alimentación consciente, comida natural y saludable, recetas para mejorar la digestión, alimentación depurativa">
-    <meta name="description" content="Buscas recetas de nutrición natural y alimentación consciente.
-    Preparaciones simples, depurativas y fisiológicas que acompañan
-    procesos digestivos, limpieza hepática y bienestar integral.">
-    <!--BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-   <!-- ANIMATE -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <!--CSS-->
-    <link rel="stylesheet" href="../styles/style.css">
-    <title>Recetas</title>
-</head>
-<body class="fondo-recetas" role="img" aria-label="Mini tarta de crema de castañas y limón sobre plato blanco" >
-    
-<header>
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-    <div class="container-fluid">
-      <button 
-        class="navbar-toggler" 
-        type="button" 
-        data-bs-toggle="collapse" 
-        data-bs-target="#navbarNav" 
-        aria-controls="navbarNav" 
-        aria-expanded="false" 
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="./inicio.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="./sobremi.html">Sobre mí</a></li>
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Recetas</a></li>
-          <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
-          <li class="nav-item"><a class="nav-link btn btn-warning text-dark fw-bold" href="./reservar.html">Reservar</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <meta name="keywords" content="fermentos naturales, germinados, clorofila, alimentación viva, nutrición natural consciente">
+  <meta name="description" content="Recetas vivas y conscientes: fermentos, germinados y clorofila para activar la digestión y la energía.">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <link rel="stylesheet" href="../styles/style.css">
+
+  <title>Recetas vivas | Nani Villa</title>
+</head>
+
+<body>
+
+<header class="navbar navbar-expand-lg custom-header shadow-sm">
+  <div class="container-fluid">
+    <a href="../index.html">
+      <img class="nani-logo"
+           src="../assets/WhatsApp Image 2025-10-28 at 09.54.19.jpg"
+           alt="Logo Nani Villa" style="height: 50px;">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#menuNani" aria-controls="menuNani"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <nav class="collapse navbar-collapse justify-content-end" id="menuNani">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link a-nav" href="../index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link a-nav" href="sobremi.html">Sobre mí</a></li>
+        <li class="nav-item"><a class="nav-link a-nav" href="servicios.html">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link a-nav active" href="recetas.html">Recetas</a></li>
+        <li class="nav-item"><a class="nav-link a-nav" href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
-<section class="container-md mt-3 pt-3">
-    <main class="recetas-main">
-      <div class="mi-overlay p-4 rounded mx-auto">
-        <h3>IDEAS VIVAS</h3>
-        <h2 class="animate__animated animate__zoomIn" >Te regalo mis imprescindibles</h2>
-        <nav>
-          <ul class="recetas-list list-unstyled d-flex flex-column gap-2">
-            <li><a class="btn btn-dark w-100" href="./fermentodezanahorias.html">Fermento de zanahorias</a></li>
-            <li><a class="btn btn-dark w-100" href="./comogerminar.html">Cómo germinar</a></li>
-            <li><a class="btn btn-dark w-100" href="./clorofila.html">Clorofila</a></li>
-            <li><a class="btn btn-warning fw-bold w-100" href="./quieroelrecetariocompleto.html">Quiero el recetario completo</a></li>
-          </ul>
-        </nav>
-      </div>
-    </main>
-</section>
+<main class="container my-5">
 
-<footer>
-    <p class="footer-p">© 2025 Nani Villa | TODOS LOS DERECHOS RESERVADOS</p>  
-</footer>   
+  <div class="recetas-intro text-center animate__animated animate__fadeIn mb-5 py-4">
+    <h1 class="display-4 fw-bold">Recetas vivas</h1>
+    <p class="lead mx-auto" style="max-width: 800px;">
+      Estas preparaciones activan la inteligencia natural del cuerpo. 
+      Son simples, accesibles y profundamente transformadoras.
+    </p>
+  </div>
 
-<!--bootstrap js-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <div class="row g-4 recetas-grid">
+
+    <div class="col-md-6 col-lg-4">
+        <article class="card h-100 shadow-sm border-0 receta-card">
+          <div class="card-body p-4">
+            <h2 class="h4 card-title text-success">Fermento de zanahorias</h2>
+            <p class="small text-muted mb-3"><strong>Beneficios:</strong> microbiota, digestión y sistema inmune</p>
+            
+            <h3 class="h6 fw-bold border-bottom pb-2">Ingredientes</h3>
+            <ul class="ps-3">
+              <li>Zanahorias</li>
+              <li>Agua sin cloro</li>
+              <li>Sal marina sin refinar</li>
+            </ul>
+
+            <h3 class="h6 fw-bold border-bottom pb-2 mt-4">Preparación</h3>
+            <ol class="ps-3">
+              <li>Rallar o cortar las zanahorias.</li>
+              <li>Colocar en frasco de vidrio.</li>
+              <li>Agregar agua con sal (1 cdita por litro).</li>
+              <li>Presionar bien y tapar sin ajustar.</li>
+              <li>Fermentar 5 a 7 días.</li>
+            </ol>
+            <p class="card-text mt-3 bg-light p-2 rounded small text-italic">
+              El sabor ácido indica fermentación activa.
+            </p>
+          </div>
+        </article>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+        <article class="card h-100 shadow-sm border-0 receta-card">
+          <div class="card-body p-4">
+            <h2 class="h4 card-title text-success">Cómo germinar semillas</h2>
+            <p class="small text-muted mb-3"><strong>Beneficios:</strong> activar nutrientes y enzimas</p>
+            
+            <h3 class="h6 fw-bold border-bottom pb-2">Semillas</h3>
+            <ul class="ps-3">
+              <li>Lentejas, Alfalfa</li>
+              <li>Garbanzos, Quinoa</li>
+            </ul>
+
+            <h3 class="h6 fw-bold border-bottom pb-2 mt-4">Proceso</h3>
+            <ol class="ps-3">
+              <li>Remojo 8 a 12 hs.</li>
+              <li>Lavar y enjuagar.</li>
+              <li>Dejar en frasco inclinado.</li>
+              <li>Enjuagar 2 veces por día.</li>
+              <li>Consumir cuando brota.</li>
+            </ol>
+            <p class="card-text mt-3 bg-light p-2 rounded small">
+                Alimento regenerador y liviano.
+            </p>
+          </div>
+        </article>
+    </div>
+
+    <div class="col-md-6 col-lg-4">
+        <article class="card h-100 shadow-sm border-0 receta-card">
+          <div class="card-body p-4">
+            <h2 class="h4 card-title text-success">Bebida de clorofila</h2>
+            <p class="small text-muted mb-3"><strong>Beneficios:</strong> sangre, hígado y oxigenación</p>
+            
+            <h3 class="h6 fw-bold border-bottom pb-2">Ingredientes</h3>
+            <ul class="ps-3">
+              <li>Hojas verdes (espinaca, acelga)</li>
+              <li>Manzana o pera</li>
+              <li>Agua</li>
+              <li>Jugo de limón</li>
+            </ul>
+
+            <h3 class="h6 fw-bold border-bottom pb-2 mt-4">Preparación</h3>
+            <ol class="ps-3">
+              <li>Licuar todo.</li>
+              <li>Colar si es necesario.</li>
+              <li>Consumir fresco.</li>
+            </ol>
+            <p class="card-text mt-3 bg-light p-2 rounded small">
+                Ideal en ayunas para depurar.
+            </p>
+          </div>
+        </article>
+    </div>
+
+  </div>
+
+  <div class="recetas-cierre text-center mt-5 py-5 border-top">
+    <p class="fs-5 text-muted">
+      Fermentar, germinar y activar alimentos es volver a la inteligencia natural del cuerpo.
+    </p>
+  </div>
+
+</main>
+
+<footer class="py-4 text-center border-top bg-white">
+  <p class="mb-0 text-muted">© 2025 Nani Villa | Todos los derechos reservados</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>

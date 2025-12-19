@@ -1,6 +1,10 @@
-.footer {
-  text-align: center;
-  padding: 1.5rem 0;
-  color: #666;
-  font-size: 0.9rem;
+@use '../utilities/variables' as v;
+
+footer {
+    padding: 20px 0;
+    background-color: v.$color-gris-claro;
+    .footer-p { 
+        font-size: 12px; 
+        color: v.$color-texto, 20%;
+    }
 }

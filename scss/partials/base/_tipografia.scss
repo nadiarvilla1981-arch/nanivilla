@@ -1,10 +1,28 @@
+
+@use '../utilities/variables' as v;
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-  font-family: "Montserrat", sans-serif;
+  
+  font-family: v.$fuente-principal;
+  color: v.$color-texto;
+  line-height: 1.6;
 }
-h1 { font-size: 56px; }
-p { font-size: medium; }
-.footer-p { font-size: 12px; }
-.quote { font-size: medium; }
-.highlight { color: #f4c430; }
+
+// TIPOGRAFÍA BÁSICA
+h1 { 
+  font-size: 56px; 
+  font-weight: 800;
+  
+  font-family: v.$fuente-principal;
+}
+
+p { 
+  font-size: 1rem; 
+}
+
+.highlight { 
+  
+  color: v.$color-resaltado; 
+}

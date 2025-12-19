@@ -1,24 +1,21 @@
+// style.scss
+
 // UTILITIES
-@use './partials/utilities/mixins';
 @use './partials/utilities/variables';
+@use './partials/utilities/mixins';
+@use './partials/utilities/responsive';
 
 // BASE
-@use  './partials/base/reset';
-@use  './partials/base/tipografia';
+@use './partials/base/reset';
+@use './partials/base/tipografia';
 
 // COMPONENTS
-@use './partials/componets/pages';
-@use './partials/componets/overlays';
-@use './partials/componets/nav';
 @use './partials/componets/header';
-@use './partials/componets/footer';
+@use './partials/componets/nav';
 @use './partials/componets/buttons';
-@use './partials/componets/formulario';
+@use './partials/componets/footer';
 @use './partials/componets/fermento';
 
-// RESPONSIVE
-
-@use './partials/utilities/responsive';
 
 
 
